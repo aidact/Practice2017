@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color:#767c8e;
+    background: linear-gradient(to bottom, #767c8e 0%, #4975fc 100%)*/
+    background: url(startup.jpg);
+    background-size: cover;
+}
+
+.back {
+    border-radius: 15px;
+    width: 530px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+input[type="text"], input[type="password"]{
+    height: 40px;
+    width: 250px;
+    padding: 10px 20px;
+    margin: 6px;
+    margin-left: 140px;
+    font-size: 14px;
+    color: gray;
+    border-bottom: 1px solid #828893;
+    border: none;
+    border-radius: 5px;
+}
+
+.inner span {
+    color: white;
+}
+
+.inner{
+    text-align: center;
+    margin: 0;
+    margin-top: 55px;
+    margin-bottom: 15px;
+    color: #3d5059;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#singin {
+    margin-left: 133px;
+}
+
+#singin button{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 250px;
+    padding: 10px 10px;
+    margin: 6px;
+    text-align: center;
+    color: #fff;
+    background: #3d87ff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn1:active button{
+    background: #042845;
+}
+
+.btn1:hover {
+    background-color: #042845;
+}

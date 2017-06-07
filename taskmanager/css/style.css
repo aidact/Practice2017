@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 41px;
+}
+ 
+ body{
+ 	font-size: 16px;
+ 	background: url(../images/symphony.jpg);
+ }
+
+ .container{
+ 	margin: 0 auto;
+ 	width: 1100px;
+ 	min-height: 500px;
+ 	height: auto;
+ 	background: #ecf0f1;
+ 	box-shadow: 2px 5px 15px 0px #2c3e50;
+ 	padding-bottom: 300px;
+ }
+
+ menu{
+ 	text-align: center;
+ 	height: 60px;
+ 	width: 92%;
+ 	background: #34495e;
+ 	line-height: 73px;
+ 	margin-bottom: 30px;
+ 	font-family: arial;
+
+ }
+ menu a{
+	font-family: 'Arial Black';
+/*	margin-left: 30px;
+	margin-right: 30px;*/
+	font-size: 2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	padding: 18px;
+	transition-property: background;
+	transition-timing-function: ease-out;
+	transition-duration: 0.5s;
+}
+   menu a:hover{
+	background: #e74c3c;
+	border-bottom: 20px solid green;
+}
+
+.activeMenuElement{
+	background: #e74c3c;
+	border-bottom: 5px solid #c0392b;
+}
+
+img{
+	width: 350px;
+	margin-right: 10px;
+	border: 3px solid white;
+	box-sizing: border-box;
+	transition-property: transform;
+	transition-timing-function: ease;
+	transition-duration: 1.5s;
+}
+
+img:hover{
+	box-shadow: 2px 5px 15px 0px #2c3e50;
+	cursor: pointer;	
+	transform:  rotate(360deg);
+}
+.secondImage{
+	padding: 50px;
+}
+h1{
+	margin-bottom: -50px;
+	font-weight: "Arial";
+	font-size: 30px;
+    color: grey;
+}
+p{
+   width: 100%;
+   margin-left: -50px;
+}
+button{
+	margin: 0 auto;
+	border: none;
+	background: red;
+	width: 240px;
+	height: 85px;
+	color: white;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+/*	margin-left: 80px;*/
+    border-bottom: blue;
+    border-top-left-radius: 50px;
+}
+form{
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+    display: block;
+    padding: 60px;
+}
+form input{
+	display: block;
+	width: 60%;
+	height: 40px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    padding-left: 40px;
+    font-family: Arial Black;
+    text-transform: lowercase;
+    outline: 0;
+    border: none;
+    color: grey;
+    padding: 30px;
+}
+form input:focus{
+	box-shadow: 2px 5px 15px 0px #9b59b6;
+}
+
+.descriptionText{
+	padding: 10px;
+}
+.descriptionText p{
+	font-size: 1.5em;
+	font-family: Helvetica;
+	margin-bottom: 20px;
+}
+span::selection{
+	background: #2ecc71;
+}
+
+div{
+	display: block;
+}
+.aboutText{
+clear: both;
+margin-top: -15px;
+}
+#tt1{
+	width: 200px;
+	padding: 136px;
+	margin-left: -140px;
+	margin-top: -114px;
+	float: left;
+}
+#tt2{
+	width: 200px;
+	padding: 20px;
+	margin-left: 5px;
+	margin-top: 0.5px;
+	float: left;	
+}
+#tt3{
+	width: 200px;
+	padding: 20px;
+	margin-left: 124px;
+	margin-top: 0.5px;
+	float: left;
+}
+#col1{
+	margin-top: -150px;
+	width: 300px;
+	padding: 5px;
+	margin-left: 25px;
+	float: left;
+}
+#col2{
+	margin-top: -150px;
+	width: 300px;
+	padding: 5px;
+	margin-left: 25px;
+	float: left;
+}
+#col3{
+	margin-top: -150px;
+	width: 300px;
+	padding: 5px;
+	margin-left: 25px;
+	float: left;
+}
+.textTable1{
+	
+}
